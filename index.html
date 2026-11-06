@@ -4,9 +4,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light" />
-<meta name="description" content="Light-Up Enterprise 公式サイト試作。MIANのストック楽曲を録り直し配信中。全5シングルの紹介と試聴リンク、プロフィール。" />
+<meta name="description" content="Light-Up Enterprise 公式サイト。フロントマンMIANのストック楽曲を録り直し配信中。全5シングルの紹介と試聴リンク、プロフィール。" />
 <link rel="icon" href="data:," />
-<title>Light-Up Enterprise ホームページ試作</title>
+<title>Light-Up Enterprise Official Website</title>
 <script>
 (function(){try{var saved=null;try{saved=window.localStorage.getItem("lue-lang");}catch(storageError){saved=null;}var lang;if(saved==="ja"||saved==="en"){lang=saved;}else{var l=(navigator.language||navigator.userLanguage||"").toLowerCase();lang=l.indexOf("ja")===0?"ja":"en";}document.documentElement.setAttribute("data-lang",lang);document.documentElement.setAttribute("lang",lang);}catch(e){}})();
 </script>
@@ -860,11 +860,11 @@ function setLang(lang, isManual) {
   if (currentLang === "en") {
     searchInput.setAttribute("placeholder", "Search by song title");
     searchInput.setAttribute("aria-label", "Search by song title");
-    document.title = "Light-Up Enterprise — Official Site (Prototype)";
+    document.title = "Light-Up Enterprise Official Website";
   } else {
     searchInput.setAttribute("placeholder", "曲名で探す");
     searchInput.setAttribute("aria-label", "曲名で探す");
-    document.title = "Light-Up Enterprise ホームページ試作";
+    document.title = "Light-Up Enterprise 公式ウェブサイト";
   }
   var imgs = document.querySelectorAll("img[data-alt-ja]");
   Array.prototype.forEach.call(imgs, function (img) {
